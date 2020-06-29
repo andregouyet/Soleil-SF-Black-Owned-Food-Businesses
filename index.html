@@ -104,7 +104,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/19V4TdCmmwf7i6yyXeyP5JAQLuEeBdn9woqdBWCjeFDg/gviz/tq?tqx=out:csv&sheet=BayArea',
+        url: 'https://docs.google.com/spreadsheets/d/2PACX-1vRRdFoEwVYKLCEL7vWKRZl3h9u10mIAoUp_KFLbRzP2EV9nHqCDLA-Prx-r3Mrp0PA6SvudvCxuofyd/gviz/tq?tqx=out:csv&sheet=BayArea',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
